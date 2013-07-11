@@ -1,0 +1,62 @@
+name = austese_profile
+description = Installs all modules required for AustESE workbench
+version = 0.1
+core = 7.x
+
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contact
+dependencies[] = contextual
+; dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = openid
+dependencies[] = options
+;dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = statistics
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = tracker
+dependencies[] = user
+
+; Contrib
+;dependencies[] = libraries
+;dependencies[] = entity
+;dependencies[] = entityreference
+;dependencies[] = ctools
+; dependencies[] = actions_permissions
+;dependencies[] = views
+;dependencies[] = views_bulk_operations
+; dependencies[] = features
+; dependencies[] = diff
+;dependencies[] = og
+;dependencies[] = og_ui
+;dependencies[] = smtp
+;dependencies[] = jquery_update
+;dependencies[] = openid_selector
+
+; AustESE custom modules
+;dependencies[] = repository
+;dependencies[] = collationtools
+;dependencies[] = alignment
+;dependencies[] = annotations
+;dependencies[] = lightbox
+
+files[]=austese_profile.profile

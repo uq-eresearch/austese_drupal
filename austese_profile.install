@@ -1,0 +1,8 @@
+<?php
+function austese_profile_install() {
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+  standard_install();
+  theme_enable(array('austese', 'seven'));
+  variable_set('theme_default','austese');
+  variable_set('admin_theme','seven');
+}
